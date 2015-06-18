@@ -1,5 +1,5 @@
     <!-- Full Page Image Background Carousel Header -->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="colart-slide carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -13,13 +13,13 @@
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('images/1.png');"></div>
+                <div class="fill" style="background-image:url('images/1.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('images/2.png');"></div>
+                <div class="fill" style="background-image:url('images/2.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
