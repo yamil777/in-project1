@@ -1,5 +1,5 @@
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="coralt-navbar navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -15,13 +15,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">HOME</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#">TIPOLOGÍAS</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">CONTACTO</a>
                     </li>
                 </ul>
             </div>
