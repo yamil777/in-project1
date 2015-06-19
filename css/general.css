@@ -1,0 +1,45 @@
+/*
+ * menu color: #f7a712;
+ * reservation bar color: #f7a712;
+ * RESERVAR button: #f28a07;
+ */
+
+.coralt-navbar {
+	border-color: #f7a712;
+	width: 50%;
+	margin-left: 50%;
+	background-color: #f7a712;
+}
+
+.coralt-navbar .coralt-nav>li>a {
+	padding: 15px 45px;
+	color: white;
+}
+.carousel-indicators {
+  	bottom: 200px;
+}
+.carousel-indicators li {
+	border: 1px solid #f7a712;
+}
+.carousel-indicators .active {
+	background-color: #f7a712;
+}
+/*
+@media screen and (min-width: 768px) {
+	.carousel-indicators {
+	  	bottom: 200px;
+	}
+}
+*/
+
+/* 
+ * reservation bar styles 
+ */
+
+ .reservation-bar-container {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 80%;
+ 	height: 100px;
+ 	background-color: #f7a712;
+ }

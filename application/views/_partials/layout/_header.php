@@ -12,8 +12,11 @@
 	    <!-- Bootstrap Core CSS -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	    <!-- Custom CSS -->
+	    <!-- Custom Slider CSS -->
 	    <link href="css/full-slider.css" rel="stylesheet">
+
+	     <!-- Custom CSS -->
+	    <link href="css/general.css" rel="stylesheet">
 	</head>
 
 	<body>
