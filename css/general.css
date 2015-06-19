@@ -17,6 +17,7 @@
 }
 .coralt-nav li:hover {
 	border-bottom: 5px solid #f28a07;
+	height: 50px;
 }
 
 .carousel-indicators {
