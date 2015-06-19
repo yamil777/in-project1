@@ -8,7 +8,6 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
             -->
         </ol>
-
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
