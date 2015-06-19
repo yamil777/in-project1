@@ -1,3 +1,3 @@
-<div class="reservation-bar-container">
+<div class="reservation-bar-container carousel-indicators">
 	
 </div>

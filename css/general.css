@@ -15,6 +15,10 @@
 	padding: 15px 45px;
 	color: white;
 }
+.coralt-nav li:hover {
+	border-bottom: 5px solid #f28a07;
+}
+
 .carousel-indicators {
   	bottom: 200px;
 }
@@ -32,14 +36,14 @@
 }
 */
 
-/* 
- * reservation bar styles 
+/*
+ * reservation bar styles
  */
 
- .reservation-bar-container {
- 	margin-left: auto;
- 	margin-right: auto;
+ .carousel-indicators.reservation-bar-container {
  	width: 80%;
  	height: 100px;
  	background-color: #f7a712;
+ 	left: 40%;
+  	bottom: 70px;
  }
