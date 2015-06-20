@@ -17,6 +17,9 @@
 
 	     <!-- Custom CSS -->
 	    <link href="css/general.css" rel="stylesheet">
+	     
+	     <!-- Fonts Icons CSS -->
+	    <link href="css/fontello.css" rel="stylesheet">
 	</head>
 
 	<body>
