@@ -5,10 +5,16 @@ $( document ).ready(function() {
 	$('.carousel').carousel({
 	    interval: 5000, //changes the speed
 	});
-	
-	$('#datePicker').datepicker();
+
+	$('.datePicker').datepicker({
+		dateFormat: 'dd/mm/yy'
+	});
 });
 
-$('#dateIcon').click(function() {
-	$('#datePicker').focus();
+$('#startDateIcon').click(function() {
+	$('#startDate').focus();
+});
+
+$('#endDateIcon').click(function() {
+	$('#endDate').focus();
 })
