@@ -20,6 +20,9 @@
 	     
 	     <!-- Fonts Icons CSS -->
 	    <link href="css/fontello.css" rel="stylesheet">
+
+	     <!-- jQuery UI css -->
+	    <link href="css/jquery-ui.min.css" rel="stylesheet">
 	</head>
 
 	<body>

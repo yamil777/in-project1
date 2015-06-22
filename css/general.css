@@ -9,21 +9,20 @@
 	width: 50%;
 	margin-left: 50%;
 	background-color: #f7a712;
-	height: 40px;
 	min-height: 40px;
 }
 
 .coralt-navbar .coralt-nav>li>a {
-	padding: 10px 45px;
+	padding: 15px 45px;
 	color: white;
 }
 .coralt-nav li:hover {
 	border-bottom: 5px solid #f28a07;
-	height: 40px;
+	height: 50px;
 }
 
 .carousel-indicators {
-  	bottom: 175px;
+  	bottom: 280px;
 }
 .carousel-indicators li {
 	border: 1px solid #f7a712;
@@ -49,23 +48,46 @@
  */
 
  .carousel-indicators.reservation-bar-container {
- 	width: 80%;
+ 	width: 88%;
  	height: 100px;
  	background-color: #f7a712;
- 	left: 40%;
-  	bottom: 70px;
+ 	left: 36%;
+  	bottom: 175px;
   	color: white;
- }
+  	padding-top: 20px;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border: 1px ridge #bdb3bd;
+}
 
 .reservation-bar-container .reservation-tile {
 	min-width: 150px;
-	height: 50px;
+	height: auto;
+
+}
+
+.reservation-tile > p {
+	text-align: left;
+}
+
+.textbox {
+	border: 1px solid #cccccc;
+	outline:0;
+	height:25px;
+	margin-left: 15px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	color: black;
+	cursor: pointer;
 }
 
 .btn-reservar {
 	background-color: #f28a07;
 	border: 0;
 	color: white;
+	margin-top: 15px;
 }
 
 .btn-reservar:hover,
@@ -116,3 +138,8 @@
     font-size: 27px;
 	line-height: 24px;
 }
+
+.date-icon {
+	cursor: pointer;
+}
+

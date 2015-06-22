@@ -1,13 +1,14 @@
 	<div class="row reservation-bar-container carousel-indicators col-xs-12">
 		<div class="col-xs-3 reservation-tile">
-			<label>LLEGADA</label>
-			<span class="font-icon">&#xe801;</span>
+			<p class="col-xs-12">LLEGADA</p>
+			<input id="datePicker" name="datePicker" readonly type="text" class="textbox col-xs-6"/>
+			<span id="dateIcon" class="col-xs-2 font-icon date-icon">&#xe801;</span>
 		</div>
 		<div class="col-xs-3 reservation-tile">
-			<label>SALIDA</label>
+			<p>SALIDA</p>
 		</div>
 		<div class="col-xs-3 reservation-tile">
-			<label>PERSONAS</label>
+			<p>PERSONAS</p>
 		</div>
 		<div class="col-xs-3 reservation-tile">
 			<button class="btn btn-default btn-lg btn-reservar">
