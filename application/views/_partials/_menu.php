@@ -1,4 +1,4 @@
-    <nav class="coralt-navbar navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="coralt-navbar navbar-xs navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

@@ -12,13 +12,22 @@
 	min-height: 40px;
 }
 
+.navbar-nav > li > a, .navbar-brand {
+    padding-bottom:0 !important;
+    height: 40px;
+}
+
+.navbar {
+	min-height:40px !important;
+}
+
 .coralt-navbar .coralt-nav>li>a {
-	padding: 15px 45px;
+	padding: 10px 45px;
 	color: white;
 }
 .coralt-nav li:hover {
 	border-bottom: 5px solid #f28a07;
-	height: 50px;
+	height: 40px;
 }
 
 .carousel-indicators {
@@ -81,6 +90,8 @@
 	-webkit-border-radius: 5px 5px 5px 5px;
 	color: black;
 	cursor: pointer;
+	padding:0 0 0 5px;
+	min-width: 79px;
 }
 
 .btn-reservar {
