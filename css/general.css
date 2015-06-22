@@ -9,25 +9,32 @@
 	width: 50%;
 	margin-left: 50%;
 	background-color: #f7a712;
+	height: 40px;
+	min-height: 40px;
 }
 
 .coralt-navbar .coralt-nav>li>a {
-	padding: 15px 45px;
+	padding: 10px 45px;
 	color: white;
 }
 .coralt-nav li:hover {
 	border-bottom: 5px solid #f28a07;
-	height: 50px;
+	height: 40px;
 }
 
 .carousel-indicators {
-  	bottom: 200px;
+  	bottom: 175px;
 }
 .carousel-indicators li {
 	border: 1px solid #f7a712;
+	width: 15px;
+	height: 15px;
 }
+
 .carousel-indicators .active {
 	background-color: #f7a712;
+	width: 17px;
+	height: 17px;
 }
 /*
 @media screen and (min-width: 768px) {
@@ -50,13 +57,19 @@
   	color: white;
  }
 
+.reservation-bar-container .reservation-tile {
+	min-width: 150px;
+	height: 50px;
+}
+
 .btn-reservar {
 	background-color: #f28a07;
 	border: 0;
 	color: white;
 }
 
-.btn-reservar:hover {
+.btn-reservar:hover,
+.btn-reservar:focus {
 	background: #f28a07;
 	cursor: pointer;
 	text-shadow: 0 -1px 1px #f7a712;
@@ -65,7 +78,7 @@
 	font-weight: bold;
 }
 /*
- * icons class 
+ * icons class
  */
 .font-icon {
 	font-family: "fontello";
