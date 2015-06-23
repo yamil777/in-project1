@@ -58,7 +58,7 @@
 
  .carousel-indicators.reservation-bar-container {
  	width: 88%;
- 	height: 100px;
+ 	height: auto;
  	background-color: #f7a712;
  	left: 36%;
   	bottom: 175px;
@@ -74,7 +74,7 @@
 .reservation-bar-container .reservation-tile {
 	min-width: 150px;
 	height: auto;
-
+	margin-bottom: 30px;	
 }
 
 .reservation-tile > p {
@@ -154,3 +154,28 @@
 	cursor: pointer;
 }
 
+/*
+Media Queries
+*/
+.template {
+    /* rules for mobile vertical (< 480) */
+
+    @media (min-width: @screen-hs-min) {
+       /* rules for mobile horizontal (480 > 768)  */
+       .carousel-indicators.reservation-bar-container {
+ 			width: 70%;
+ 		}
+    }
+    @media (min-width: @screen-sm-min) {
+       /* rules for tablet (768 > 992) */
+        .carousel-indicators.reservation-bar-container {
+ 			width: 70%;
+ 		}
+    }
+    @media (min-width: @screen-md-min) {
+       /* rules for desktop (992 > 1200) */
+    }
+    @media (min-width: @screen-lg-min) {
+       /* rules for large (> 1200) */
+    }
+}
