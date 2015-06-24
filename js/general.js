@@ -7,14 +7,19 @@ $( document ).ready(function() {
 	});
 
 	$('.datePicker').datepicker({
-		dateFormat: 'dd/mm/yy'
+		dateFormat: 'dd/mm/yy',
+		minDate: 0
 	});
 });
 
 $('#startDateIcon').click(function() {
-	$('#startDate').focus();
+	if($('#ui-datepicker-div').is(':hidden')) {
+		$('#startDate').focus();
+	}
 });
 
 $('#endDateIcon').click(function() {
-	$('#endDate').focus();
+	if($('#ui-datepicker-div').is(':hidden')) {
+		$('#endDate').focus();
+	}
 })

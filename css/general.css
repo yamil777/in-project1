@@ -3,7 +3,9 @@
  * reservation bar color: #f7a712;
  * RESERVAR button: #f28a07;
  */
-
+.cp {
+	cursor: pointer;
+}
 .coralt-navbar {
 	border-color: #f7a712;
 	width: 50%;
@@ -31,7 +33,7 @@
 }
 
 .carousel-indicators {
-  	bottom: 280px;
+  	bottom: 295px;
 }
 .carousel-indicators li {
 	border: 1px solid #f7a712;
@@ -74,7 +76,7 @@
 .reservation-bar-container .reservation-tile {
 	min-width: 150px;
 	height: auto;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 }
 
 .reservation-tile > p {
@@ -83,15 +85,16 @@
 
 .textbox {
 	border: 1px solid #cccccc;
-	outline:0;
-	height:25px;
+	outline: 0;
+	height: 30px;
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	color: black;
-	cursor: pointer;
-	padding:0 0 0 5px;
+	padding: 0;
 	min-width: 79px;
+	text-align: center;
+  	margin-top: 5px;
 }
 
 .btn-reservar {
@@ -110,9 +113,23 @@
 	color: white;
 	font-weight: bold;
 }
+
+.reservation-icon {
+      background:url("../images/reservation_sprite.png");
+      display: inline-block;
+      height: 35px;
+      width: 40px;
+}
+.reservation-icon.calendar {
+	background-position: 0 0;
+}
+.reservation-icon.person {
+	background-position: 0 88px;
+}
+
 /*
  * icons class
- */
+
 .font-icon {
 	font-family: "fontello";
 	font-style: normal;
@@ -126,26 +143,26 @@
 	text-align: center;
 	/* opacity: .8; */
 
-	/* For safety - reset parent styles, that can break glyph codes*/
+	/* For safety - reset parent styles, that can break glyph codes
 	font-variant: normal;
 	text-transform: none;
 
-	/* fix buttons height, for twitter bootstrap */
+	/* fix buttons height, for twitter bootstrap
 	line-height: 1em;
 
-	/* Animation center compensation - margins should be symmetric */
-	/* remove if not needed */
+	/* Animation center compensation - margins should be symmetric
+	/* remove if not needed
 	margin-left: .2em;
 
-	/* You can be more comfortable with increased icons size */
+	/* You can be more comfortable with increased icons size
 	/* font-size: 120%; */
 
-	/* Font smoothing. That was taken from TWBS */
+	/* Font smoothing. That was taken from TWBS
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	/* Uncomment for 3D effect */
-	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
     font-size: 27px;
 	line-height: 24px;
 }
@@ -153,29 +170,37 @@
 .date-icon {
 	cursor: pointer;
 }
-
+*/
 /*
 Media Queries
 */
-.template {
     /* rules for mobile vertical (< 480) */
 
-    @media (min-width: @screen-hs-min) {
-       /* rules for mobile horizontal (480 > 768)  */
-       .carousel-indicators.reservation-bar-container {
- 			width: 70%;
- 		}
-    }
-    @media (min-width: @screen-sm-min) {
-       /* rules for tablet (768 > 992) */
-        .carousel-indicators.reservation-bar-container {
- 			width: 70%;
- 		}
-    }
-    @media (min-width: @screen-md-min) {
-       /* rules for desktop (992 > 1200) */
-    }
-    @media (min-width: @screen-lg-min) {
-       /* rules for large (> 1200) */
-    }
+@media only screen and (max-width : 480px){
+/* rules for mobile horizontal (480 > 768)  */
+	.row.carousel-indicators.reservation-bar-container {
+			width: 50%;
+			padding: 20px 0;
+			bottom: 40px;
+			background-color: rgba(247, 167, 18, 0.7);
+	}
+	.carousel-indicators {
+	  	bottom: 0px;
+	}
+
+}
+@media only screen and (max-width : 768px) {
+/* rules for tablet (768 > 992) */
+	.carousel-indicators.reservation-bar-container {
+			width: 70%;
+		}
+	.reservation-bar-container .reservation-tile {
+		margin-right: 50px;
+	}
+}
+ @media only screen and (max-width : 992px) {
+/* rules for desktop (992 > 1200) */
+}
+@media only screen and (max-width : 1200px) {
+/* rules for large (> 1200) */
 }
