@@ -162,6 +162,10 @@ Media Queries
 	.promo-container {
 		display: none;
 	}
+	.reservation-icon,
+	.reservation-tile {
+		padding: 0 0 0 15px !important;
+	}
 }
 @media only screen and (max-width : 768px) {
 /* rules for tablet (768 > 992) */
