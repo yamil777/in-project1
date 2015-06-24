@@ -7,7 +7,5 @@
 
 		<script src="js/general.js"></script>
 
-	    </script>
-
 	</body>
 </html>
