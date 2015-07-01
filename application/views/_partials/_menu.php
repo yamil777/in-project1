@@ -12,13 +12,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav coralt-nav">
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="/home">HOME</a>
                     </li>
                     <li>
-                        <a href="#">TIPOLOGÍAS</a>
+                        <a href="/tipologias">TIPOLOGÍAS</a>
                     </li>
                     <li>
-                        <a href="#">CONTACTO</a>
+                        <a href="/contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>
