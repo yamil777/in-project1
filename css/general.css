@@ -182,3 +182,13 @@ Media Queries
 @media only screen and (max-width : 1200px) {
 /* rules for large (> 1200) */
 }
+
+
+/* CONTACTO */
+body.contacto,
+body.tipologias {
+	background-image: url('../background-img-contacto/1-blurry.jpg');
+	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+}

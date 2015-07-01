@@ -8,7 +8,8 @@ class Tipologias extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['a'] = 6;
+		$data = array();
+		$data['page'] = 'tipologias';
 		$this->load->view('tipologias/tipologias', $data);
 	}
 }

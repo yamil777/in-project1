@@ -8,7 +8,8 @@ class Contacto extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['a'] = 6;
+		$data = array();
+		$data['page'] = 'contacto';
 		$this->load->view('contacto/contacto', $data);
 	}
 }

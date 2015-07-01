@@ -24,5 +24,4 @@
 	     <!-- jQuery UI css -->
 	    <link href="css/jquery-ui.min.css" rel="stylesheet">
 	</head>
-
-	<body>
+	<body class="<?=$page;?>">

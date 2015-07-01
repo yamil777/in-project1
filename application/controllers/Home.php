@@ -8,7 +8,22 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['a'] = 6;
+		$data['images'] = $this->readBackgroundImage();
+		$data['page'] = 'home';
 		$this->load->view('home/home', $data);
+	}
+
+	public function readBackgroundImage() {
+
+		$folder = opendir('background-img-home/');
+		$images = array();
+
+		while ($file = readdir($folder)) {
+			if (!is_dir($file)) {
+				$images[] = $file;
+			}
+		}
+		sort($images);
+		return $images;
 	}
 }
