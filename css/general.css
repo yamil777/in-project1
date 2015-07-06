@@ -3,9 +3,21 @@
  * reservation bar color: #f7a712;
  * RESERVAR button: #f28a07;
  */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
 .cp {
 	cursor: pointer;
 }
+
+.rounded {
+	-webkit-border-radius: 7px 7px 7px 7px;
+}
+
 .coralt-navbar {
 	border-color: #f7a712;
 	width: 50%;
@@ -191,4 +203,33 @@ body.tipologias {
 	background-repeat: no-repeat;
  	background-position: center;
  	background-size: cover;
+}
+
+body.contacto .contact-form-container {
+	  background-color: orange;
+	  height: 500px;
+	  width: 45%;
+	  margin: 22% 0 0 8px;
+}
+
+body.contacto .googlemap {
+	margin: 1% 10px 0 0;
+	border: 2px solid #CCC;
+}
+body.contacto .place-information {
+	height: 180px;
+	background-color: orange;
+	float: right;
+	width: 45%;
+	margin: 22% 10px 15px 0;
+}
+
+body.contacto .contact-form-container .contact-form {
+	margin: 25px 0 0 0;
+	text-align: center;
+	color: white;
+}
+
+body.contacto .contact-form-container .contact-form input {
+	margin-bottom: 2%;
 }
