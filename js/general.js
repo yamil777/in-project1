@@ -22,4 +22,24 @@ $('#endDateIcon').click(function() {
 	if($('#ui-datepicker-div').is(':hidden')) {
 		$('#endDate').focus();
 	}
+});
+
+$('.contact-input, .contact-text-area').focus(function() {
+	$(this).removeAttr('placeholder');
 })
+
+$('.contact-input, .contact-text-area').blur(function() {
+    $(this).attr('placeholder', $(this).attr('lplaceholder'));
+});
+
+$("#reservationButton").click(function() {
+	var valid = 0;
+	//[0] to use the javascript property
+	valid = $("form#contactForm")[0].checkValidity();
+	if(valid === true) {
+		$.post("contacto/sendMail", function(data) {
+			console.log(data);
+		});
+	}
+});
+

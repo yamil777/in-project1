@@ -17,7 +17,7 @@
 			<span id="personIcon" class="col-xs-2 reservation-icon person cp"></span>
 		</div>
 		<div class="col-xs-3 reservation-tile">
-			<button class="btn btn-default btn-lg btn-reservar">
+			<button class="btn btn-default btn-lg btn-reservar btn-home">
 				RESERVAR
 			</button>
 		</div>

@@ -116,6 +116,14 @@
 	margin-top: 15px;
 }
 
+.btn-contact {
+	width: 40%;
+	margin-top: 5%;
+}
+
+.btn-home {
+	width: 80%;
+}
 .btn-reservar:hover,
 .btn-reservar:focus {
 	background: #f28a07;
@@ -232,4 +240,58 @@ body.contacto .contact-form-container .contact-form {
 
 body.contacto .contact-form-container .contact-form input {
 	margin-bottom: 2%;
+}
+
+body.contacto .content {
+	font-size: 150%;
+	padding: 3em 0;
+}
+
+body.contacto .content h2 {
+	margin: 0 0 2em;
+	opacity: 0.1;
+}
+
+body.contacto .content p {
+	margin: 1em 0;
+	padding: 5em 0 0 0;
+	font-size: 0.65em;
+}
+
+body.contacto .contact-input,
+body.contacto .contact-text-area {
+	width: 55%;
+	padding-left: 5px;
+	color: black;
+	border: 0;
+	height: 25px;
+}
+
+body.contacto .contact-input:focus,
+body.contacto .contact-text-area:focus {
+	outline: 0;
+}
+
+body.contacto .contact-label {
+	margin-bottom: 5%;
+}
+
+body.contacto .contact-text-area {
+	height: 180px;
+}
+
+::-webkit-input-placeholder {
+   color: #f7a712;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #f7a712;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #f7a712;
+}
+
+:-ms-input-placeholder {
+   color: #f7a712;
 }
