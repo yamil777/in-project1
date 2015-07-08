@@ -118,7 +118,7 @@
 
 .btn-contact {
 	width: 40%;
-	margin-top: 5%;
+	margin: 5% 0;
 }
 
 .btn-home {
@@ -186,6 +186,22 @@ Media Queries
 	.reservation-tile {
 		padding: 0 0 0 15px !important;
 	}
+	.btn-contact {
+		width: 95%;
+	}
+	body.contacto input.contact-input, body.contacto textarea.contact-text-area {
+		width: 85%;
+	}
+	body.contacto div.place-information {
+		height: 170px;
+	}
+	body.contacto .contact-form-container.fl.rounded,
+	body.contacto .place-information.rounded {
+		margin-top: 35%;
+	}
+	body.contacto .contact-form-container.fl.rounded {
+		margin-left: 0;
+	}
 }
 @media only screen and (max-width : 768px) {
 /* rules for tablet (768 > 992) */
@@ -215,7 +231,7 @@ body.tipologias {
 
 body.contacto .contact-form-container {
 	  background-color: orange;
-	  height: 500px;
+	  height: auto;
 	  width: 45%;
 	  margin: 22% 0 0 8px;
 }
@@ -225,7 +241,7 @@ body.contacto .googlemap {
 	border: 2px solid #CCC;
 }
 body.contacto .place-information {
-	height: 180px;
+	height: 250px;
 	background-color: orange;
 	float: right;
 	width: 45%;
@@ -278,6 +294,13 @@ body.contacto .contact-label {
 
 body.contacto .contact-text-area {
 	height: 180px;
+}
+
+body.contacto label.error {
+	  display: list-item;
+	  text-align: left;
+	  margin-left: 25%;
+	  color: red;
 }
 
 ::-webkit-input-placeholder {
