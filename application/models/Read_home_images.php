@@ -1,6 +1,6 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Get_data extends CI_Model {
+class Read_home_images extends CI_Model {
 
     public function __construct() {
         parent::__construct();
