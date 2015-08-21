@@ -221,7 +221,9 @@ Media Queries
 }
 
 
-/* CONTACTO */
+/* 
+* CONTACTO 
+*/
 body.contacto,
 body.tipologias {
 	background-image: url('../background-img-contacto/1-blurry.jpg');
@@ -318,4 +320,29 @@ body.contacto label.error {
 
 :-ms-input-placeholder {
    color: #f7a712;
+}
+
+/* 
+* TIPOLOGIAS
+*/
+
+.container-tipologias {
+	margin: 12% auto auto 10%;
+	width: 80%;
+	height: 75%;
+	position: relative;
+	display: inline-block;
+}
+
+.container-tipologias .tipologia-min {
+	width: 48%;
+	height: 46%;
+	position: relative;
+	display: inline-block;
+	margin-left: 1%;
+	background-color: #f7a712; 
+}
+
+.container-tipologias .tipologia-min.top {
+	margin-bottom: 2%;
 }
