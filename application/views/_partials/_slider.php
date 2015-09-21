@@ -11,7 +11,7 @@
             <?php foreach($images as $key=>$img) { ?>
             <div class="item <?php echo $key == 0 ? 'active' : ''?>">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('background-img-home/<?=$img?>');"></div>
+                <div class="fill" style="background-image:url('<?=$imagePath.$img?>');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>

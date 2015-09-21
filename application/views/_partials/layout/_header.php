@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="<?=$page;?>" lang="es">
 	<head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,5 +23,6 @@
 
 	     <!-- jQuery UI css -->
 	    <link href="css/jquery-ui.min.css" rel="stylesheet">
+
 	</head>
 	<body class="<?=$page;?>">

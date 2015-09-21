@@ -6,14 +6,8 @@
 	    <script src="js/bootstrap.min.js"></script>
 
 		<script src="js/general.js"></script>
-		<?php 
-		if (strpos($_SERVER["REQUEST_URI"], 'contacto')) {
-		?>
-			<script src="js/jquery.validate.min.js"></script>
-		<?php
-		}
 
-		?>
+		<script src="js/jquery.validate.min.js"></script>
 
 	</body>
 </html>

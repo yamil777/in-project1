@@ -36,6 +36,17 @@ $( document ).ready(function() {
 			msg: "Por favor realice su consulta"
 		}
 	});
+
+	/*
+	* TIPOLOGIAS
+	*/
+
+	$('.tipologia-min').click(function() {
+		//alert($(this).attr('id'));
+		$('.container-slider-tp').fadeIn();
+	});
+
+	/*************/
 });
 
 $('#startDateIcon').click(function() {

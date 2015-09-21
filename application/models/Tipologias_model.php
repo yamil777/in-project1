@@ -19,12 +19,7 @@ class Tipologias_model extends CI_Model {
         } 
         
     	$query = $this->db->get('tipologias');
-        /*
-    	foreach ($query->result() as $row)
-		{
-		    $validApartments[] = $row;
-		}
-        */
+
     	return $query->result();
     }
 }
