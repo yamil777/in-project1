@@ -45,6 +45,9 @@ $( document ).ready(function() {
 		//alert($(this).attr('id'));
 		$('.container-slider-tp').fadeIn();
 	});
+	$('.close').click(function() {
+		$(this).parent().hide();
+	});
 
 	/*************/
 });

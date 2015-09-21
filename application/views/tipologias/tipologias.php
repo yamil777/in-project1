@@ -30,6 +30,7 @@
         </div>
 
         <div class="container-slider-tp">
+            <div class="close">X</div>
             <?php
             $this->load->view('_partials/_reservation-bar');
             ?>
