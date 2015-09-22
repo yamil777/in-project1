@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="<?=$page;?>" lang="es">
 	<head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +17,12 @@
 
 	     <!-- Custom CSS -->
 	    <link href="css/general.css" rel="stylesheet">
-	</head>
 
-	<body>
+	     <!-- Fonts Icons CSS -->
+	    <link href="css/fontello.css" rel="stylesheet">
+
+	     <!-- jQuery UI css -->
+	    <link href="css/jquery-ui.min.css" rel="stylesheet">
+
+	</head>
+	<body class="<?=$page;?>">
